@@ -1,0 +1,365 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    display: flex;
+    color: white;
+    background-color: #161616;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    background-color: #161616;
+   
+}
+
+.logo{
+    width: 50px;
+}
+
+
+.inicial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.conteudo {
+    
+    align-items: center;
+    text-align: center;
+    padding-left: 200px;
+  }
+
+.inicial h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+
+}
+.inicial p{
+    text-align: center;
+    color: white;
+   
+}
+
+.lateral {
+    width: 241px; 
+    height: auto;
+    z-index: -1;
+    
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*here*/
+.skill {
+    display: flex;
+    flex-direction: column; 
+    padding: 40px;
+    background-color: #102030; 
+    border-radius: 20px;
+    width: 1216px;
+    height: 400px;
+    margin-top: 50px;
+
+    
+}
+
+
+.conhecer {
+    background-color: #102030;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    
+    
+   
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+}
+
+p {
+    font-size: 1.1em;
+    color: white;
+    
+}
+
+.programador {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+
+h4 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 15px;
+    
+    
+}
+
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Cada card ocupa 30% do espaço disponível */
+    text-align: center;
+    
+    
+   
+}
+
+.card h4 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+/*skills*/
+
+.linguagens {
+      text-align: center;
+      padding: 50px 20px;
+      
+}
+
+.linguagens h2{
+    font-size: 1.8rem;
+    text-align: center;
+     margin-top: 200px;
+    
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.icons img{
+    width: 80px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.bar {
+   height: 10px;
+   border-radius: 5px;
+   background-color: #5a606a;
+}
+
+.retangulo1{
+    height: 10px;
+    background-color: #a259ff;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.retangulo2{
+    height: 10px;
+    background-color: #f7df1e;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.retangulo3{
+    height: 10px;
+    background-color:#3178c6;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.retangulo4{
+    height: 10px;
+    background-color: #E44D26;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.retangulo5{
+    height: 10px;
+    background-color:  #29ABE2;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.retangulo6{
+    height: 10px;
+    background-color:  #0cc1c5;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.retangulo7{
+    height: 10px;
+    background-color:  #00758F;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+/*projetos*/
+
+.projetos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+
+.conteiner-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+
+}
+
+.project-card{
+    background-color: #161b22;
+    height: 150px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(88,166,255,0.2);
+    background-image: url(../img/Robot.png);
+    margin: 10px;
+    width: 100%;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.project-card p{
+    margin-top: 10px;
+
+}
+
+/*footer*/
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    padding: 40px 0;
+    margin-top: 100px;
+    background-color: rgba(45,130,183,0.2);
+    background-image: url(../img/logofinal.png);
+    background-position-y:100% ;
+    background-size: 19%;
+    background-repeat: no-repeat;
+}
+
+
+.footer h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-size: 20px;
+
+}
+
+.conteiner{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
+.esquerda, .direita{
+    display: flex;
+    gap: 10px;
+    text-align: right;
+    flex-direction: column;
+    
+
+}
+
+
+.link{
+    text-decoration: none;
+    color: #ffff;
+    display: flex;
+}
+
+.footericon{
+    background-position-y: 2%;
+}
+
+.direita a{
+    gap: 10px;
+    text-align: center;
+
+}
+
+footer p{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.imglogo{
+    width: 68px;
+}
+
